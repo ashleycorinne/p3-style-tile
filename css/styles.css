@@ -2,6 +2,10 @@
 html{
 	background: url("../img/subtle_dots.png")
 }
+body{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -25,10 +29,10 @@ section {
 	width: 50px;
 }
 
-section{
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
+#squares{
+	display: inline-block;
 }
+
 .Primary{
 	font-size: 1.8em;
 	color: #333;
