@@ -1,0 +1,82 @@
+
+html{
+	background: url("../img/subtle_dots.png")
+}
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3{
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+section{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.Primary{
+	font-size: 1.8em;
+	color: #333;
+}
+.Secondary{
+	font-size: 1.2em;
+	color: #333;
+}
+.Paragraph{
+	font-size: 1.0em;
+	color: #333;
+}
+.Paragraph a{
+	text-decoration: none;
+	color: #b2b2b2;
+	cursor: pointer;
+}
+.Paragraph a:hover{
+	color:#A86973;
+	cursor: pointer;
+	 -webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-ms-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+  	transition: all .5s ease;
+}
+
+.color-1{
+	background-color: #b2b2b2;
+}
+.color-2{
+	background-color:#A86973;
+}
+.color-3{
+	background-color: #333;
+}
+.pattern-1{
+	background: url("../img/subtle_dots_@2X.png");
+}
+.pattern-2{
+	background: url("../img/stardust_@2X.png");
+}
+.pattern-3{
+	background:url("../img/classy_fabric_@2X.png");
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
