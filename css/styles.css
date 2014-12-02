@@ -44,7 +44,7 @@ section {
 	padding-right: 10px;
 }
 .navBar a:hover{
-	color: #A86973;
+	color: #b2b2b2;
 	cursor: pointer;
  	-webkit-transition: all .5s ease;
   	-moz-transition: all .5s ease;
