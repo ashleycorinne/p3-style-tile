@@ -28,6 +28,33 @@ section {
 	height: 50px;
 	width: 50px;
 }
+.navBar{
+	text-align: center;
+}
+.navBar li{
+	list-style: none;
+	display: inline;
+	font-size:2.0em;
+	margin-right: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navBar a {              
+	text-decoration: none;
+	color: #333;
+	padding-right: 10px;
+}
+.navBar a:hover{
+	color: #A86973;
+	cursor: pointer;
+ 	-webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-ms-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+  	transition: all .5s ease;
+}
+.selectedPage a{
+	color: #b2b2b2;
+}
 
 #squares{
 	display: inline-block;
