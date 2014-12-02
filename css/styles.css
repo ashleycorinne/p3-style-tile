@@ -28,6 +28,11 @@ section {
 	height: 50px;
 	width: 50px;
 }
+.brandLogo{
+	width: 5%;
+	height: 100%;
+	padding: 10px;
+}
 .navBar{
 	text-align: center;
 }
