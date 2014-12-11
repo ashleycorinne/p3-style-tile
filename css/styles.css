@@ -17,6 +17,25 @@ footer{
     padding-bottom: 30px;
 
 }
+.socialMedia{
+	text-align: center;
+	margin-top: 30px;
+}
+.socialMedia i{
+	font-size: 2.0em;
+	color:#b2b2b2;
+	padding-right: 20px;
+}
+
+.socialMedia i:hover{
+	color:#A86973;
+	cursor: pointer;
+	 -webkit-transition: all .5s ease;
+  	-moz-transition: all .5s ease;
+  	-ms-transition: all .5s ease;
+  	-o-transition: all .5s ease;
+  	transition: all .5s ease;
+}
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
