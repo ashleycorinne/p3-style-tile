@@ -28,6 +28,10 @@ section {
 	height: 50px;
 	width: 50px;
 }
+.Logo{
+	text-align: center;
+	display: block;
+}
 .brandLogo{
 	width: 5%;
 	height: 100%;
